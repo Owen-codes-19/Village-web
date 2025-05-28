@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f7f9fc;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Banner Section */
+.banner {
+  background-color: #00264d; 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.banner-content h1{
+  font-size:xx-large;
+}
+
+.banner-content p{
+  font-weight:bold;
+}
+
+.banner h3 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.banner p {
+  font-size: 1.2rem;
+}
+
+/* Buttons */
+button {
+  background-color:wheat;
+  color:#00264d;
+  padding:10px 20px;
+  margin:10px;
+  border:none;
+  border-radius:15px;
+}
+
+button:hover {
+  background-color: #004080;
+  color: white;
+}
+
+/* News Section */
+.news {
+  padding: 2rem;
+  background-color: #e6f0ff;
+  
+}
+
+.news h4 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.news img {
+  width: 5%;
+  max-width: 700px;
+  display: block;
+  margin: 1rem 0;
+  border-radius: 10px;
+}
+
+/* Events, Services, and Contact sections */
+.events, .services, .contacts {
+  padding: 2rem;
+}
+
+.services button {
+  margin: 0.5rem;
+}
+
+.H{
+  text-align:center;
+}
+
+.services{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content:space-between;
+  color:black;
+  background-color: #e6f0ff;
+}
+
+figure img {
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  border-radius: 12px;
+  
+}
+
+h4{
+  font-size:larger;
+}
+
+.pic{
+  width:72%
+}
+
+.T{
+  text-align: center;
+}
+
+.events img{
+  width: 80%
+}
+
+.text{
+  font-weight:bold;
+}
+
+.events{
+  display: flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-between;
+  padding: 2rem;
+}
+
+h5{
+  font-size:larger;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color:white;
+  background-color:#00264d;
+}
+
+.contacts p {
+  font-size:larger;
+}
+
+form{
+  display: flex;
+  flex-direction:column;
+  padding: 1rem;
+}
+
+form button{
+  width: 100px;
+}
+
+footer{
+  color:white;
+  background-color:#00264d;
+}
+
+@media screen and (max-width: 600px) {
+  .banner h3 {
+    font-size: 1.8rem;
+  }
+
+  .banner p {
+    font-size: 1rem;
+  }
+
+  button {
+    width: 80%;
+    font-size: 1rem;
+  }
+
+  .news img, figure img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .banner, .news, .events, .services, .contacts {
+    padding: 1rem;
+  }
+
+  .buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .form {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+}
